@@ -56,6 +56,6 @@ Before submitting a pull request, please ensure that you have read and adhered t
 Discord.TS is open-source software licensed under the [MIT License](https://opensource.org/licenses/MIT). Feel free to use, modify, and distribute it according to the terms of the license.
 
 ## Support
-If you need any assistance or have any questions regarding discord.ts, you can reach out to our community on our [Official Discord Server](https://discord.gg/discord-ts).
+If you need any assistance or have any questions regarding discord.ts, you can reach out to our community on our [Official Discord Server](https://discord.gg/schycsxmnb).
 
 We hope that Discord.TS simplifies your Discord bot development experience with Bun. Happy coding!
