@@ -1,0 +1,12 @@
+{
+  "name": "discord.ts",
+  "description": "The Go-To TypeScript Discord Library For Bun!",
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "bun-types": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
