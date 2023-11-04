@@ -37,7 +37,7 @@ export enum GatewayIntents {
     INTEGRATION_CREATE = "integrationCreate",
     INTEGRATION_UPDATE = "integrationUpdate",
     INTEGRATION_DELETE = "integrationDelete",
-    MESSAGE_CREATE = "message",
+    MESSAGE_CREATE = "messageCreate",
     MESSAGE_UPDATE = "messageUpdate",
     MESSAGE_DELETE = "messageDelete",
     MESSAGE_DELETE_BULK = "messageDeleteBulk",
