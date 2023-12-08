@@ -2,11 +2,29 @@
   "name": "discord.ts",
   "description": "The Go-To TypeScript Discord Library For Bun!",
   "module": "index.ts",
+  "license": "MIT",
   "type": "module",
   "devDependencies": {
     "bun-types": "latest"
   },
   "peerDependencies": {
     "typescript": "^5.0.0"
-  }
+  },
+  "engines": {
+    "bun": "^1.0.15"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Lucrative-Software/Discord.ts/"
+  },
+  "bugs": {
+    "url": "https://github.com/Lucrative-Software/Discord.ts/issues"
+  },
+  "keywords": [
+    "bun",
+    "typescript",
+    "api",
+    "library",
+    "discord"
+  ]
 }
