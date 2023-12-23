@@ -1,4 +1,4 @@
-export enum Constants {
+export enum URLS {
     GATEWAY = "wss://gateway.discord.gg/",
     API = "https://discord.com/api/v10",
   }
