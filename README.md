@@ -70,22 +70,3 @@ Discord.ts is open-source software licensed under the [MIT License](https://open
 If you need any assistance or have any questions regarding discord.ts, you can reach out to our community on our [Official Discord Server](https://discord.gg/schycsxmnb).
 
 We hope that Discord.ts simplifies your Discord bot development experience with Bun. Happy coding!
-
-```json
-  "engines": {
-    "node": "14.x"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/Wumpuspro/Luminious-bot/"
-  },
-  "bugs": {
-    "url": "https://github.com/Wumpuspro/Luminious-bot//issues"
-  },
-  "license": "MIT",
-  "keywords": [
-    "node",
-    "javascript",
-    "bot",
-    "discord"
-  ],

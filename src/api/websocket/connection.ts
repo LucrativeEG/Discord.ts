@@ -1,4 +1,4 @@
-import { Constants } from "../constants/Constants"
+import { Constants } from "../../common/Constants"
 
 const websocketserver = Bun.serve({
     fetch(req, server) {
