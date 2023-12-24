@@ -1,1 +1,1 @@
-import { websocketserver } from "../websocket/connection"
+import { DiscordWebSocket } from "../websocket/connection"

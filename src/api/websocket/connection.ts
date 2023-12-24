@@ -1,6 +1,8 @@
-import { URLS } from "../../common/Constants"
+import { URLS, OPCODE } from "../../common/Constants"
 
-const websocketserver = Bun.serve({
+const Gateway = URLS.GATEWAY
+
+const DiscordWebSocket = Bun.serve({
     fetch(req, server) {
     const success = server.upgrade(req);
     if (success) {
@@ -9,15 +11,15 @@ const websocketserver = Bun.serve({
     return new Response("Upgrade Failed", { status: 500})
   },
   websocket: {
-    open(ws) {
-        console.log(`Client is Connected to ${ws}`)
+    open(Gateway) {
+        console.log(`Client is Connected to ${Gateway}`)
     },
-    message(ws, message) {
+    message(Gateway, message) {
         console.log(message);
-        ws.sendText("Yo!")
+        Gateway.send("op: 1")
     },
   }
 })
 
 
-export module websocketserver{}
+export module DiscordWebSocket{}

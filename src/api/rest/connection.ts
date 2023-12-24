@@ -1,8 +1,9 @@
 import { type ServeOptions } from "bun";
+import { URLS } from "../../common/Constants"
 
 Bun.serve({
     async fetch(request:Request) {
-        const url = new URL(request.url)
+        const url = new URL(URLS.API)
         return new Response(url.href)
     },
 
